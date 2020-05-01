@@ -24,7 +24,7 @@ public class CodeRedController {
 
 	@GetMapping("/getAllCodeRedUsers")
 	public List<CodeRedUser> getAllCodeRedUsers() {
-		System.out.println("kjflgj");
+		
 		return codeRedService.findAll();
 	}
 
